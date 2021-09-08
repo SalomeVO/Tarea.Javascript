@@ -84,7 +84,7 @@ console.log(result6);
 console.log(result7);
 */
 
-/*Condicionales*/
+/*Condicionales
 //if else y if anidados
 let contrasena = "pepe123";
 let input = "123";
@@ -123,7 +123,72 @@ switch(typeCard){
     
     default: 
     console.log("No tienes tarjeta");
+}*/
+
+/*Bucles*/
+
+//while
+ let contar = 50;
+
+ while(contar > 0){
+
+    console.log(contar);
+    contar --;
 }
+
+
+contar = 0;
+
+while(contar <= 50){
+
+   console.log(contar);
+   contar ++;
+}
+
+//for
+ let nombres = ["ryan", "joe", "john" ];
+
+ for(let i = 0; i<nombres.length; i++){
+     console.log(nombres[i]);
+ }
+
+nombres = [1, 2, 3];
+
+ for(let i = nombres.length - 1; i>=0; i--){
+     console.log(nombres[i]);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
