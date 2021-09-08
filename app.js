@@ -25,8 +25,6 @@ console.log({"nombre": "joe", "puntuacion": 0.4, "horas": 1, "es profesional": f
 */
 
 /*Variables: como su nombre lo dice son datos que no son fijos y pueden cambiar constantemente
-*/
-
 var nameUser = "john";
 let apellido = "carter";
 
@@ -35,4 +33,84 @@ nameUser = 'pepe'
 const PI = 3.1415;
 //PI = 100; error porque una const no cambia su valor
 
-console.log(nameUser + " " + apellido);
+console.log(nameUser + " " + apellido); */
+
+/*Operdores*/
+ let numberOne = 60;
+ let numberTwo = 100;
+
+//suma
+result1 = numberOne + numberTwo;
+console.log(result1);
+
+//resta
+result2 = numberOne - numberTwo;
+console.log(result2);
+
+//multiplicacion 
+result3 = numberOne * numberTwo;
+console.log(result3);
+
+//division 
+result4 = numberOne / numberTwo;
+console.log(result4);
+
+//concatenacion 
+let name = "jonh";
+let lestname = "carter";
+
+let completeName = name + " " + lestname;
+
+console.log(completeName);
+
+
+//comparaciones 
+numberOne = 60;
+numberTwo = 100;
+
+//mayor
+let result = numberOne > numberTwo;
+
+//menor
+let result5 = numberOne < numberTwo;
+
+//igual
+let result6 = numberOne == numberTwo;
+
+//diferencia 
+let result7 = numberOne != numberTwo;
+
+console.log(result);
+console.log(result5);
+console.log(result6);
+console.log(result7);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
