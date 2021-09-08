@@ -125,126 +125,60 @@ switch(typeCard){
     console.log("No tienes tarjeta");
 }*/
 
-/*Bucles*/
+/*Bucles
 
 //while
  let contar = 50;
-
  while(contar > 0){
-
     console.log(contar);
     contar --;
 }
 
-
 contar = 0;
-
 while(contar <= 50){
-
    console.log(contar);
    contar ++;
 }
 
 //for
  let nombres = ["ryan", "joe", "john" ];
-
  for(let i = 0; i<nombres.length; i++){
      console.log(nombres[i]);
  }
 
 nombres = [1, 2, 3];
-
  for(let i = nombres.length - 1; i>=0; i--){
      console.log(nombres[i]);
  }
+    */
 
+/*Funciones*/
+function greeting(){
+    console.log("Hola");
+}
 
+greeting();
+greeting();
+greeting();
 
+function saludo(nombre){
+     console.log(nombre);
+     console.log("hola");
+}
 
+saludo("Markus");
 
+function saludo2(persona){
+    console.log("Hola " + persona);
+}
 
+saludo2("Kara");
+saludo2("Marcus");
+saludo2("Conor");
 
+function add(n1, n2){
+    console.log(n1 + n2);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add(3, 2);
+add(100, 300);
