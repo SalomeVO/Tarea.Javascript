@@ -7,17 +7,15 @@ console.error("La apliacion a fallado"); */
 
 /*Tipos de datos
 string = 'cadena de texto' o "cadena de texto" 
-
 console.log("esto es una cadena de texto");*/
 
 /*number = 1000 o -2.3
-
 console.log("1,2,-3");*/
 
 
-/*
-boolean = true o false */
-console.log(true);
+/*boolean = true o false*/ 
+console.log(true); 
+
 
 /*
 array = ['joe', 'ryan', 'martha'] o [1,2,3] o [true, false, true]
